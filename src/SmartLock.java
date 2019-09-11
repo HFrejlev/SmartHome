@@ -32,6 +32,8 @@ public class SmartLock {
 
         boolean result = true;
 
+        // Iterate through identifier strings in the whitelist.
+        // Break the loop and set locked state to false when the identifier is found.
         for (String s : this.whitelist) {
             if (s.equals(device)) {
                 result = false;
