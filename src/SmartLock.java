@@ -11,11 +11,6 @@ public class SmartLock {
     public SmartLock() {
     }
 
-    public SmartLock(boolean locked, List<String> whitelist) {
-        this.locked = locked;
-        this.whitelist = whitelist;
-    }
-
     // Check if the lock is locked or not.
     public boolean isLocked() {
         return locked;
