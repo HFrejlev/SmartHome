@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class SmartLock {
@@ -6,7 +6,7 @@ public class SmartLock {
     // Locked state (true = locked, false = unlocked)
     private boolean locked = true;
     // List of device identifiers that are allowed to unlock
-    private List<String> whitelist = new ArrayList<>();
+    private List<String> whitelist = new LinkedList<>();
 
     public SmartLock() {
     }
