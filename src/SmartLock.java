@@ -38,6 +38,8 @@ class SmartLock {
 
         this.locked = result;
 
+        //Ny kommentar fra mig.
+
     }
 
 }
